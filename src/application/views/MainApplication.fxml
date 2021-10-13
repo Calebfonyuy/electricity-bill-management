@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.MainAppController">
+   <children>
+      <VBox fx:id="baseView">
+         <children>
+            <MenuBar VBox.vgrow="NEVER">
+              <menus>
+                <Menu mnemonicParsing="false" text="Bills">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#showMonthlyBills" text="Monthly Bills" />
+                        <MenuItem mnemonicParsing="false" onAction="#showPersonalBills" text="Personal Bills" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Tenants">
+                  <items>
+                        <MenuItem mnemonicParsing="false" onAction="#showTenants" text="Tenant List" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Settings">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#showHouseInformation" text="House Information" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="User">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#showUserConfig" text="User configuration" />
+                      <MenuItem mnemonicParsing="false" onAction="#logOut" text="Log out" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+            <StackPane fx:id="mainView" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" VBox.vgrow="ALWAYS" />
+            <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="25.0" styleClass="footer" text="Brought to you by God's Grace Softwares(godsgracesoftwares@gmail.com)" VBox.vgrow="NEVER">
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EclipseLink 2.5.2">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="sqlite-jdbc-3.23.1.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/barcodes-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/font-asian-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/forms-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/hyph-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/io-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/kernel-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/layout-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/pdfa-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/pdftest-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/sign-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/styled-xml-parser-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/svg-7.1.9.jar"/>
+	<classpathentry kind="lib" path="iText7-Core-7.1.9/org.slf4j.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

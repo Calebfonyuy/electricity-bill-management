@@ -1,0 +1,109 @@
+#login-btn{
+	-fx-font-weight: bolder;
+	-fx-font-size: 15pt;
+	-fx-background-color: #03a1fc;
+}
+
+.list-cell:even, .table-row-cell:even{
+	-fx-background-color: #b6cde6;
+}
+
+.list-cell:odd, .table-row-cell:odd{
+	-fx-background-color: #729fcf;
+}
+
+.list-cell:selected, .table-row-cell:selected{
+	-fx-background-color: #4e5ba5;
+	-fx-font-weight: bold;
+	-fx-text-fill: #fff;
+}
+
+.table-view, .table-view .column-header{
+	-fx-background-color: #b6cde6;
+}
+
+.table-view .column-header{
+	-fx-background-color: #4e5ba5;
+}
+
+.table-view .column-header .label{
+	-fx-background-color: #4e5ba5;
+	-fx-font-weight: bold;
+	-fx-text-fill: #fff;
+}
+
+
+.footer {
+	-fx-font-size: 6pt;
+	-fx-font-weight: bold;
+	-fx-text-fill: #01132e;
+}
+
+.image{
+    -fx-stroke: blue;
+    -fx-stroke-width: 5;
+}
+
+.field-label{
+	-fx-font-weight: bold;
+	-fx-text-fill: #03a1fc;
+}
+
+.value-label{
+	-fx-font-weight: bold;
+	-fx-text-fill: #010b1a;
+}
+
+.section-label{
+	-fx-font-weight: bold;
+	-fx-text-fill: #03a1fc;
+	-fx-font-size: 18pt;
+	-fx-font-family: serif;
+}
+
+.active-item{
+	-fx-font-weight: bold;
+	-fx-text-fill: #055485;
+	-fx-font-size: 18pt;
+	-fx-font-family: serif;
+}
+
+.page-title{
+	-fx-font-family: serif;
+	-fx-font-weight: bold;
+	-fx-font-size: 22pt;
+	-fx-text-fill: #03a1fc;
+}
+
+.button{
+	-fx-font-size: 10pt;
+}
+
+.button:hover{
+	-fx-effect: dropshadow(three-pass-box, #96a3a3, 10, 0.5, 5, 5);
+}
+
+.edit-btn{
+	-fx-text-fill: #fff;
+	-fx-background-color: #54ba14;
+}
+
+.cancel-btn{
+	-fx-text-fill: #fff;
+	-fx-background-color: #cf192b;
+}
+
+.save-btn{
+	-fx-text-fill: #fff;
+	-fx-background-color: #18a808;
+}
+
+.new-btn{
+	-fx-text-fill: #fff;
+	-fx-background-color: #055485;
+}
+
+.other-btn{
+	-fx-text-fill: #fff;
+	-fx-background-color: #078a83;
+}
